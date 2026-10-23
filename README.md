@@ -66,7 +66,3 @@ HWSCOPE运行截图.png       主环境运行效果
 ```bat
 D:\Python313\python.exe tests\run_tests.py
 ```
-
-## 作者
-
-吴毅峻 · 汇编语言程序设计课程项目

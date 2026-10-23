@@ -6,7 +6,7 @@
 import pathlib
 import re
 
-ASM = pathlib.Path(r"D:\17404\Desktop\汇编语言程序设计\src\HWSCOPE.ASM")
+ASM = pathlib.Path(__file__).resolve().parents[1] / "src" / "HWSCOPE.ASM"
 text = ASM.read_text(encoding="utf-8")
 
 NEW_PROC = """TEST_DISK PROC

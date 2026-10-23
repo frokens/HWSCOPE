@@ -5,7 +5,7 @@ import pathlib
 import re
 import sys
 
-ROOT = pathlib.Path(r"D:\17404\Desktop\汇编语言程序设计")
+ROOT = pathlib.Path(__file__).resolve().parents[1]
 SRC = ROOT / "src" / "HWSCOPE.ASM"
 OUTDIR = ROOT / "_tmp_extract"
 

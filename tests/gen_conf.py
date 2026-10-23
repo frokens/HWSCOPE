@@ -18,7 +18,7 @@ import pathlib
 import shutil
 import sys
 
-ROOT = pathlib.Path(r"D:\17404\Desktop\汇编语言程序设计")
+ROOT = pathlib.Path(__file__).resolve().parents[1]
 TESTS = ROOT / "tests"
 RUN = pathlib.Path(r"D:\cache\hwscope_run")
 MASM_TOOLS = pathlib.Path(r"D:\masm-tools")

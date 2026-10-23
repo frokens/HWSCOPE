@@ -85,8 +85,7 @@ def check_font(font: dict) -> dict:
 
 if __name__ == "__main__":
     import sys
-    src = pathlib.Path(
-        r"D:\17404\Desktop\汇编语言程序设计\src\HWSCOPE.ASM")
+    src = pathlib.Path(__file__).resolve().parents[1] / "src" / "HWSCOPE.ASM"
     if len(sys.argv) > 1:
         src = pathlib.Path(sys.argv[1])
     f = parse_font(src)
