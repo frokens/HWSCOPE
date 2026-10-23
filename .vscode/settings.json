@@ -1,0 +1,22 @@
+{
+  // ===== MASM/TASM 扩展 (xsro.masm-tasm) =====
+  // 使用 DOSBox + 内置 MASM v5.00 工具链
+  "masmtasm.ASM.assembler": "MASM-v5.00",
+  "masmtasm.ASM.emulator": "dosbox",
+  "masmtasm.command.dosbox": "\"D:\\dosbox\\DOSBox.exe\"",
+  "masmtasm.dosbox.run": "pause",
+  "masmtasm.dosbox.config": {
+    "sdl.windowresolution": "1024x640",
+    "sdl.output": "opengl"
+  },
+  "masmtasm.ASM.savefirst": true,
+  "masmtasm.language.Hover": true,
+  "masmtasm.language.programmaticFeatures": true,
+
+  // 让 .asm 默认用本扩展的 assembly 语言模式
+  "files.associations": {
+    "*.asm": "assembly",
+    "*.inc": "assembly",
+    "*.ASM": "assembly"
+  }
+}
